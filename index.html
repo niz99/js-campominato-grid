@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,41 @@
     <link rel="stylesheet" href="./asset/css/style.css">
     <title>Griglia campo minato</title>
 </head>
+
 <body>
-    
+
+    <header>
+
+        <div class="fl-header">
+            <img src="./asset/img/Logo.png" alt="">
+            <h1 class="title">Campo Minato</h1>
+        </div>
+
+        <div class="fl-header">
+            <label for="choice-level">Difficolta:</label>
+            <select name="choice-level" id="level">
+                <option value="lev-1">Easy</option>
+                <option value="lev-2">Medium</option>
+                <option value="lev-3">Hard</option>
+            </select>
+            <button id="btn">Play</button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="container" id="grid"></div>
+
+    </main>
+
+    <footer>
+
+        <h5>Made with &hearts; by Nizar</h5>
+        
+    </footer>
+
     <script type="text/javascript" src="./asset/js/script.js"></script>
 </body>
+
 </html>
