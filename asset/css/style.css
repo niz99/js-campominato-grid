@@ -48,6 +48,11 @@ header {
     align-items: center;
 }
 
+.clicked{
+    background-color: rgb(82, 127, 232);
+    color: white;
+}
+
 /* footer */
 
 footer{
