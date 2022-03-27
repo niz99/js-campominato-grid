@@ -6,14 +6,15 @@
 
 /* header */
 
-body {
+/* body {
     background-color: rgb(113, 255, 203);
-}
+} */
 
 header {
-    height: 80px;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: white;
 }
 
@@ -32,6 +33,14 @@ header {
 
 /* main */
 
+main{
+    background-color: rgb(113, 255, 203);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     width: 30%;
     margin: 100px auto;
@@ -39,8 +48,26 @@ header {
     flex-wrap: wrap;
 }
 
-.box{
+.box-facile{
     width: calc(100% / 10);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-medio {
+    width: calc(100% / 9);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-difficile {
+    width: calc(100% / 7);
     aspect-ratio: 1;
     border: 1px solid black;
     display: flex;
@@ -53,14 +80,19 @@ header {
     color: white;
 }
 
+.none{
+    display: none;
+}
+
 /* footer */
 
 footer{
     background-color: white;
-    height: 40px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
 }
 
 footer h5{
-    line-height: 40px;
     margin-left: 150px;
 }
