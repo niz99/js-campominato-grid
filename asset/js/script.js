@@ -62,19 +62,3 @@ start.addEventListener("click", function(){
 
     }
 })
-
-// function getRandomIntInclusive(min, max){
-//     min = Math.ceil(min);
-//     max = Math.ceil(max);
-//     return Math.floor(Math.random() * (max - min + 1) + min);
-// }
-
-// for(y = 1; y <= 100; i++){
-
-//     let numeroRandom = getRandomIntInclusive(1, 100);
-
-//     do {
-//         array,push(numeroRandom)
-//     } while ( !array.includes(numeroRandom) )
-
-// }
